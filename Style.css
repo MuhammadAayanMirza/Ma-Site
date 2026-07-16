@@ -1,0 +1,24 @@
+.footer {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(193, 88%, 71%);
+    margin:20px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(193, 100%, 83%);
+    color: hsl(16, 93%, 48%);
+
+}
+.text {
+    text-align: center;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 20px
+}
