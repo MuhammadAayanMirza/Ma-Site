@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .footer {
     font-size: 14px;
     font-family: 'helvetica', Arial, Helvetica, sans-serif, monospace;
     color: hsl(0, 0%, 0%);
     background-color: hsl(193, 88%, 71%);
     margin:20px;
+    margin-top: 500px;
+    text-align: center;
 }
 body {
     font-family: 'helvetica', Arial, Helvetica, sans-serif, monospace;
@@ -15,19 +23,89 @@ body {
 .text {
     text-align: center;
     font-family: oloo, Arial, Helvetica, sans-serif, monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 25px;
+    background: linear-gradient(to right, hsl(193, 95%, 69%), hsl(312, 89%, 85%),hsl(193, 95%, 69%), hsl(312, 89%, 85%));
+    width: 100%;
+    padding: 120px;
+    background-size: 400% 400%;
+    animation: gradientMovement 12.5s ease infinite;
+    margin-top: 100px;
 }
 
 .img1 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 125px;
-    margin-bottom: 20px;
-    
+    width: 300px;
+    margin-right: 50px;
 }
 .text2 {
     text-align: center;
     font-size: 20px;
     font-family: oloo, Arial, Helvetica, sans-serif, monospace;
     color: hsl(0, 29%, 18%);
+}
+
+.about {
+    text-align: center;
+    font-size: 20px;
+    font-family: oloo, Arial, Helvetica, sans-serif, monospace;
+    color: hsl(0, 29%, 18%);
+    margin-top: 200px;
+    padding-top: 150px;
+}
+
+a {
+    color: hsl(23, 100%, 50%);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+a:hover {
+    color: hsl(193, 100%, 83%);
+    text-decoration: none;
+    background-color: hsl(23, 100%, 50%);
+    border-radius: 20px;
+}
+
+
+li {
+    list-style: none;
+    font-size: 20px;
+    font-family: oloo, Arial, Helvetica, sans-serif, monospace;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: sticky;
+    background-color: hsl(193, 100%, 83%);
+   z-index: 1000;
+   top: 0;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   border-bottom: 2px solid hsl(23, 100%, 50%);
+}
+
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
