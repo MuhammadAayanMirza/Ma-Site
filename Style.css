@@ -253,10 +253,21 @@ transform: scale(1.2);
   50% { border-color: #00ffcc; }
 }
 
+
+
 @media screen and (max-width: 768px) {
 
+    .desktop-br {
+        display: none;
+
+    }
+
+    body {
+        overflow-x: hidden ;
+
+    }
     nav {
-        gap: 65px;
+        gap: 25px;
         flex-wrap: wrap;
         padding: 15px;
     }
@@ -279,7 +290,7 @@ transform: scale(1.2);
     }
 
     .text {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .text2 {
@@ -287,11 +298,25 @@ transform: scale(1.2);
         font-size: 18px;
     }
 
-    .about,
+    .loading {
+        font-size: 22;
+
+    }
+
+    .aboutmetext{
+        font-size: 22px;
+        width: 80%;
+        text-align:start;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
     .projects {
         font-size: 20px;
         padding-top: 80px;
     }
+
 
     .project-container {
         gap: 30px;
@@ -307,7 +332,7 @@ transform: scale(1.2);
     .insta,
     .youtube {
         width: 80px;
-        margin: 20px auto;
+        margin: -17px;
         display: inline;
     }
 
