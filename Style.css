@@ -350,3 +350,8 @@ transform: scale(1.2);
         font-size: 18px;
     }
 }
+.site-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative; /* Prevents absolutely positioned children from breaking out */
+}
