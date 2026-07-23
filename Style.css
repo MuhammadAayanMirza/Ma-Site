@@ -355,5 +355,5 @@ transform: scale(1.2);
 .site-wrapper {
   width: 100%;
   overflow-x: hidden;
-  position: relative; /* Prevents absolutely positioned children from breaking out */
+  position: relative;
 }
