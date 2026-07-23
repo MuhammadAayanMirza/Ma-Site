@@ -267,7 +267,7 @@ transform: scale(1.2);
 
     }
     nav {
-        gap: 25px;
+        gap: 20px;
         flex-wrap: wrap;
         padding: 15px;
     }
@@ -315,6 +315,11 @@ transform: scale(1.2);
     .projects {
         font-size: 20px;
         padding-top: 80px;
+    }
+
+    .projectstext {
+
+        font-size: 22px;
     }
 
 
