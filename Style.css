@@ -1,3 +1,27 @@
+/* Laptop/Desktop styles go at the top of your file */
+.container {
+  display: flex;
+  width: 1200px; 
+}
+
+/* --- MOBILE FRIENDLY OVERRIDES --- */
+@media screen and (max-width: 768px) {
+  /* This CSS triggers only on screens smaller than 768px wide */
+  
+  .container {
+    flex-direction: column; /* Stack elements vertically instead of side-by-side */
+    width: 100%;            /* Allow container to fit mobile screen edges */
+    padding: 0 15px;        /* Add a small breathing room padding on the sides */
+  }
+}
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
