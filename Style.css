@@ -125,6 +125,7 @@ body {
     color: hsl(23, 100%, 50%);
     margin-top: 100px;
     padding-top: 150px;
+    border-top: 2px solid hsl(23, 100%, 50%);
 }
 
 a {
